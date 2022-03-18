@@ -1,0 +1,175 @@
+.card-container {
+}
+/* Card Header */
+.card-header {
+  border-bottom: 1px solid #d8d8d8;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 1.25rem;
+}
+
+.faculty-logo {
+  width: 80px;
+  height: 90px;
+}
+.department-info {
+  margin-left: 1.4375rem;
+}
+.department-info h1 {
+  color: #ff5a5a;
+  font-size: 1.5rem;
+  line-height: 50%;
+}
+.department-info h2,
+.department-info p {
+  color: var(--warm-grey);
+  font-size: 1.25rem;
+}
+.department-info h2 {
+  font-weight: 500;
+}
+.department-info h3 {
+  font-weight: 400;
+}
+
+.like-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Card Header */
+.card-body {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+.round-container {
+  display: flex;
+  align-items: center;
+}
+.round-container h3 {
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin-right: 1.4375rem;
+}
+.round-available-container {
+  display: flex;
+  color: #fff;
+  gap: 0.5rem;
+}
+.round-item {
+  background-color: #d8d8d8;
+  border-radius: 50%;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-align: center;
+  height: 1.8125rem;
+  width: 1.8125rem;
+}
+.round-active {
+  background-color: var(--greenish-teal);
+}
+
+.current-round-container {
+  color: var(--grapefruit);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+}
+
+.score-edit-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--grapefruit);
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--grapefruit);
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  font-family: 'Prompt', sans-serif;
+}
+.score-edit-btn span {
+  font-weight: 600;
+  margin-left: 1.125rem;
+  margin-right: 0.75rem;
+}
+
+.my-score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+.badge-icon {
+  margin-left: 1.5rem;
+}
+
+.my-score-info {
+  color: #4a4a4a;
+  text-align: end;
+}
+.my-score-info span {
+  font-size: 0.75rem;
+}
+.my-score-info h3 {
+  font-size: 2.625rem;
+  font-weight: 300;
+}
+
+/* Faculty */
+
+.faculty-score-container {
+  display: flex;
+  flex: 1 1 1;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color: #5f5f5f;
+}
+
+.faculty-score {
+  text-align: center;
+  font-size: 1.225rem;
+  font-weight: 400;
+}
+
+.faculty-label {
+  font-size: 0.7rem;
+}
+
+.unvailable-faculty {
+  text-align: center;
+  width: 100%;
+}
+
+.score-ratio-container {
+  border-bottom: 1px solid #d8d8d8;
+  padding: 1.125rem 0;
+  color: #48b6a3;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.interaction-container {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.like-info {
+  color: var(--warm-grey);
+  font-size: 0.925rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.share-btn {
+  color: #404042;
+  cursor: pointer;
+}

@@ -1,0 +1,3 @@
+const ADMISSION_ROUND = 5;
+
+export { ADMISSION_ROUND };
