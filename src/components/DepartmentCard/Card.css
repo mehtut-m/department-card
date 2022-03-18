@@ -91,6 +91,10 @@
   padding: 0.5rem;
   font-family: 'Prompt', sans-serif;
 }
+.score-edit-btn:hover {
+  background-color: var(--grapefruit);
+  color: #fff;
+}
 .score-edit-btn span {
   font-weight: 600;
   margin-left: 1.125rem;

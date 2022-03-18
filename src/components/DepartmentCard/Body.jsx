@@ -13,7 +13,10 @@ function Body({ cardItem }) {
         <h3>รอบที่เปิด</h3>
         <ul className="round-available-container">
           {roundSeats.map((item, index) => (
-            <li className={`round-item ${item !== -1 ? 'round-active' : ''}`}>
+            <li
+              key={index}
+              className={`round-item ${item !== -1 ? 'round-active' : ''}`}
+            >
               {index + 1}
             </li>
           ))}
